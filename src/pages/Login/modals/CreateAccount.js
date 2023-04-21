@@ -30,7 +30,7 @@ const CreateAccount = () => {
         return () => {
             avatarURL && URL.revokeObjectURL(avatarURL)
         }
-    },[avatar])
+    },[avatar, avatarURL])
 
     async function handleOk(){
 

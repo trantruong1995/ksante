@@ -73,7 +73,7 @@ const FindFriend = () => {
             setUsers(filter)
         })
 
-    },[debounced,friendUids])
+    },[debounced, friendUids, user.uid])
 
     return (
         <Modal

@@ -3,10 +3,10 @@ import {Avatar, Popover, Switch} from "antd";
 import {AuthContext} from "../../context/AuthProvider";
 import {auth} from "../../firebase/config";
 import {
-    AccountBookOutlined, CameraOutlined, CloudOutlined, LogoutOutlined,
+    AccountBookOutlined, LogoutOutlined,
     MessageOutlined,
     ScheduleOutlined,
-    SettingOutlined, ToolOutlined
+    SettingOutlined
 } from "@ant-design/icons";
 import {NavLink} from "react-router-dom";
 import './style.css';

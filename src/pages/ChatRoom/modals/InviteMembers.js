@@ -60,7 +60,7 @@ const InviteMembers = () => {
         })
 
         setFetching(false)
-    },[debounced])
+    },[debounced, selectedRoom?.members])
 
     const Options = options.map(opt => (
         <Select.Option key={opt.value} value={opt.value} title={opt.label}>
