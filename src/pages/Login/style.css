@@ -1,0 +1,13 @@
+.login-container {
+    height: 100vh;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-table {
+    transform: translateY(-20%);
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 12%) 0 2px 12px;
+    border-radius: 20px;
+}
